@@ -1,0 +1,17 @@
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "Math.h"
+
+using namespace std;
+
+void main()
+{
+	float b,h,area;
+	cin>>b;
+	cin>>h,
+	area=(b*h)/2;
+	cout <<"el area es: "<<area;
+	getch();
+}
