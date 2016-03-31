@@ -1,0 +1,20 @@
+Proceso sueldo
+	definir n,i Como Entero;
+	definir sb,sn,IVA,AFP como reales;
+	IVA<-0.13;
+	AFP<-0.1271;
+	escribir "numero de empleados";
+	leer n 
+	Para i<-1 Hasta n Con Paso 1 Hacer
+		escribir "salario bruto";
+		leer sb;
+		si sb>=7000 entonces 
+			sn<-sb-(IVA+AFP)*sb;
+		sino 
+			sn<-sb-(AFP*sb);
+		FinSi
+		escribir "el salario neto es";
+		escribir sn;
+		
+	Fin Para
+	Fin Proceso
