@@ -1,0 +1,39 @@
+// Menu salario otro programa.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#define IVA 0.13
+#define AFP 0.1271
+using namespace std;
+void main ()
+{
+	int n,i,a,b,r,opcion;
+	float sb,sn;
+	cout<<"                                       MENU";
+	do {
+	  cout << endl;
+	  cout<<"1.-Suma" << endl;
+	  cout<<"2.-Sueldo" << end1;
+	  cout << "0.- Salir" << endl;
+	  cout << "Elige una opción: " ;
+	  cin >> opcion;
+	  switch (opcion) {
+	    case 1: r = a + b; break;
+		case 2:cout<<"ingresar numero de empleados";
+	cin>>n;
+	for (i=1;i<=n;i++)
+		{
+			cout<<"ingrese salario bruto";
+			cin>>sb;
+			if (sb>=7000)
+				sn=sb-(AFP+IVA)*sb;
+			else
+				sn=sb-(AFP*sb);
+			cout<<"el salario neto es"<<sn <<endl;
+	    }
+		case 3:
+
+}
+
