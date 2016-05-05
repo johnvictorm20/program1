@@ -1,0 +1,28 @@
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+#define IVA 0.13
+#define AFP 0.1271
+
+using namespace std;
+
+float salario(float NH;float C);
+void main()
+{
+	int n,i;
+	float sb,sn;
+	cout<<"ingrese el numero de empleados:"<<endl;
+	cin>> n;
+	for(i=1;i<=n;i++)
+	{
+		cout<<"ingrese el salario del empledo"<<endl;
+		cin>> sb;
+		
+		
+}
+
+float salario(float NH. float C) // Declaración de la función
+{
+	float t=n*c;
+	return t;
+}
